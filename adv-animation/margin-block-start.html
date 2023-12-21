@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #myDIV {
+        background-color: lightblue;
+        border: solid black 1px;
+        animation: mymove 5s infinite;
+      }
+
+      .redDiv {
+        background-color: rgb(229, 100, 40);
+        text-align: center;
+      }
+
+      @keyframes mymove {
+        50% {
+          margin-block-start: 50px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Animation of margin-block-start</h1>
+
+    <p>
+      Gradually change the margin-block-start from 0px to 50px, and back to 0px:
+    </p>
+    <p></p>
+
+    <div class="redDiv">div</div>
+
+    <div id="myDIV">This is my DIV element.</div>
+
+    <div class="redDiv">div</div>
+  </body>
+</html>

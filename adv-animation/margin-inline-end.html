@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      div {
+        width: 20%;
+        height: 150px;
+        float: left;
+        box-sizing: border-box;
+      }
+
+      #myDIV {
+        background-color: rgb(39, 163, 204);
+        border: solid black 1px;
+        animation: mymove 5s infinite;
+      }
+
+      .redDiv {
+        background-color: rgb(239, 135, 88);
+        text-align: center;
+      }
+
+      @keyframes mymove {
+        50% {
+          margin-inline-end: 50px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Animation of margin-inline-end</h1>
+
+    <p>
+      Gradually change the margin-inline-end from 0px to 50px, and back to 0px:
+    </p>
+    <p></p>
+
+    <div class="redDiv">div</div>
+
+    <div id="myDIV">This is my DIV element.</div>
+
+    <div class="redDiv">div</div>
+  </body>
+</html>
