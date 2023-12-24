@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #myDIV {
+        width: 500px;
+        height: 300px;
+        border: 30px solid rgb(191, 53, 3);
+        animation: mymove 5s infinite;
+      }
+
+      @keyframes mymove {
+        50% {
+          border-color: rgb(5, 68, 90);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Animation of border-color</h1>
+
+    <p>
+      Gradually change the border-color property from coral to lightblue, then
+      back:
+    </p>
+    <p></p>
+    <div id="myDIV"></div>
+  </body>
+</html>
