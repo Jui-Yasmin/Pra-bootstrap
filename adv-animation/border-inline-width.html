@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #myDIV {
+        width: 300px;
+        height: 200px;
+        background-color: lightgreen;
+        border-inline-style: solid;
+        border-inline-width: 10px;
+        animation: mymove 5s infinite;
+      }
+
+      @keyframes mymove {
+        50% {
+          border-inline-color: pink;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Animation of border-inline-color</h1>
+
+    <p>
+      Gradually change the border-inline-color property from black to pink, then
+      back:
+    </p>
+    <p></p>
+    <div id="myDIV"></div>
+  </body>
+</html>
